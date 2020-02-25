@@ -1,0 +1,15 @@
+.EightBall {
+  display: block;
+  margin-top: 10%;
+  /* background-color: aquamarine; */
+}
+
+.EightBall-Btn {
+ text-align: center;
+  font-size: 2em;
+  border-radius: 50%;
+  color: white;
+  height: 300px;
+  width: 300px;
+  outline: none;
+}
