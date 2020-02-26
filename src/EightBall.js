@@ -14,6 +14,10 @@ function EightBall(props) {
       <button className="EightBall-Btn" onClick={() => setAnswer(randomAnsw(props.answers))} style={styles}>
         {answer.msg}
       </button>
+      <button className="EightBall-Reset" onClick={() => setAnswer(initMsg)}>
+        Reset!
+      </button>
+
     </div>
   )
 }
